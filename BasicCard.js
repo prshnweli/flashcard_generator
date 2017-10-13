@@ -4,10 +4,13 @@ function basicCard (front, back) {
 
 };
 
-var a = new basicCard("What are those", "bla");
-var b = new basicCard("test", "answer");
+var a = new basicCard("The first element is", "Hydrogen");
+var b = new basicCard("The second element is Helium", "Helium");
+var c = new basicCard("The third element is Lithium", "Lithium");
+var d = new basicCard("The fourth element is Beryllium", "Beryllium");
+var e = new basicCard("The fifth element is Boron", "Boron");
 
-newArray = [a,b];
+newArray = [a,b,c,d,e];
 
 x = process.argv[3] - 1;
 
